@@ -1,0 +1,12 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method SerendipityHQ\\\\Integration\\\\AnsiConverter\\\\ShqTheme\\:\\:asArray\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/AnsiConverter/ShqTheme.php
+
+		-
+			message: "#^Method SerendipityHQ\\\\Integration\\\\AnsiConverter\\\\Twig\\\\AnsiToHtmlExtension\\:\\:convertAnsiToHtml\\(\\) has no return type specified\\.$#"
+			count: 1
+			path: src/AnsiConverter/Twig/AnsiToHtmlExtension.php
+
