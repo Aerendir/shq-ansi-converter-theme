@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="4.22.0@fc2c6ab4d5fa5d644d8617089f012f3bb84b8703">
+<files psalm-version="4.24.0@06dd975cb55d36af80f242561738f16c5f58264f">
   <file src="src/Twig/AnsiToHtmlExtension.php">
     <MissingClosureParamType occurrences="1">
       <code>$log</code>
@@ -7,6 +7,9 @@
     <MissingClosureReturnType occurrences="1">
       <code>function ($log) {</code>
     </MissingClosureReturnType>
+    <MissingParamType occurrences="1">
+      <code>$log</code>
+    </MissingParamType>
     <MissingReturnType occurrences="1">
       <code>convertAnsiToHtml</code>
     </MissingReturnType>
