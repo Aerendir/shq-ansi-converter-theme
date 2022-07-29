@@ -37,9 +37,6 @@ final class AnsiToHtmlExtension extends AbstractExtension
         ];
     }
 
-    /**
-     * @param mixed $log
-     */
     public function convertAnsiToHtml($log)
     {
         if (\is_string($log)) {

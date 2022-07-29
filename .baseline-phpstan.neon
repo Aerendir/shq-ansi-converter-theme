@@ -10,3 +10,8 @@ parameters:
 			count: 1
 			path: src/Twig/AnsiToHtmlExtension.php
 
+		-
+			message: "#^Method SerendipityHQ\\\\Integration\\\\AnsiConverter\\\\Twig\\\\AnsiToHtmlExtension\\:\\:convertAnsiToHtml\\(\\) has parameter \\$log with no type specified\\.$#"
+			count: 1
+			path: src/Twig/AnsiToHtmlExtension.php
+
