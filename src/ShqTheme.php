@@ -21,14 +21,14 @@ final class ShqTheme extends Theme
     {
         return [
             // normal
-            'black'   => '#282C34',
-            'red'     => '#E06C75',
-            'green'   => '#98C375',
-            'yellow'  => '#af8700',
-            'blue'    => '#5FAFEE',
-            'magenta' => '#af005f',
-            'cyan'    => '#D19A66',
-            'white'   => '#e4e4e4',
+            'black'     => '#282C34',
+            'red'       => '#E06C75',
+            'green'     => '#98C375',
+            'yellow'    => '#af8700',
+            'blue'      => '#5FAFEE',
+            'magenta'   => '#af005f',
+            'cyan'      => '#D19A66',
+            'white'     => '#e4e4e4',
 
             // bright
             'brblack'   => '#1c1c1c',
